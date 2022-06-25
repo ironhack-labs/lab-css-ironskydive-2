@@ -105,6 +105,10 @@ header h2 {
     width: 125px;
 }
 
+#team h3 {
+    font-size: 2em;
+    padding: 30px;
+}
 
 #team img {
     width: 250px;
@@ -114,9 +118,26 @@ header h2 {
 #team .section-text {
     font-size: 1.9em;
     text-align: center;
+    padding: 0 200px;
 }
 
 #team .member-name {
     font-size: 1.5em;
     font-weight: 700;
 }
+.footer {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+.footer a {
+   color: blue;
+   text-decoration: none;
+  }
+.footer ul {
+    list-style: none;
+   }
