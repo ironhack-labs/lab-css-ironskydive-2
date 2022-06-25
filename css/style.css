@@ -24,6 +24,7 @@ a {
     background-color: #1A252E;
     display: flex;
     justify-content: space-around;
+    padding: 0 200px;
 }
 
 .nav-bar a {
@@ -39,6 +40,7 @@ header {
     background-size: cover;
     height: 650px;
 }
+
 header h1 {
     font-size: 5.5em;
 }
@@ -71,20 +73,50 @@ header h2 {
     font-size: 0.8em;
     padding: 10px 60px;
 }
+
 #general-information {
     display: flex;
     justify-content: space-around;
     height: 300px;
+    padding: 0 200px;
 }
 
-#general-information  button{
-   color: white;
-   padding: 10px;
-   background-color: #4DACE9;
-   font-family: roboto condensed;
-   font-size: 0.7em;
-   letter-spacing: 0.5px;
-   text-align: center;
-   text-decoration: none;
+#general-information button {
+    color: white;
+    padding: 10px;
+    background-color: #4DACE9;
+    font-family: roboto condensed;
+    font-size: 0.7em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
 }
 
+#structure h3 {
+    font-size: 2em;
+}
+
+.service-box {
+    width: 250px;
+    height: 180px;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
