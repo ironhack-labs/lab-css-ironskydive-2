@@ -128,16 +128,11 @@ h5 {
   font-style: normal;
   font-size: 0.8em;
 }
-.footer a {
+#footer a {
   color: blue;
   text-decoration: none;
 }
 
-.footer ul {
+#footer ul {
   list-style: none;
-}
-
-footer {
-  background-color: darkblue;
-  color: white;
 }
