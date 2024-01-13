@@ -1,5 +1,5 @@
 * {
-  font-family: roboto;
+  font-family: Roboto;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
@@ -20,4 +20,33 @@ h4,
 h5,
 h6 {
   font-family: Roboto Condensed;
+}
+
+.h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+.h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+.h5 {
+  font-size: 1.2em;
+  line-height: 1em;
 }
