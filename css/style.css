@@ -33,6 +33,9 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   line-height: 4em;
+}
+
+header h2 {
   color: rgb(255,255,255);
   text-shadow: #020819 8px -20px 9px;
 }
@@ -89,5 +92,34 @@ h5 {
 }
 
 .dark-background {
-  background-color: ;
+  background-color: rgb(25,33,41);
+  color: rgb(255,255,255);
+}
+
+#general-information p {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#general-information a {
+    background-color: rgb(67,163,230);
+    color: rgb(255,255,255);
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+/* Alternative with a class */
+
+.link-btn {
+  background-color: rgb(67,163,230);
+  color: rgb(255,255,255);
+  font-family: 'Roboto Condensed';
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
 }
