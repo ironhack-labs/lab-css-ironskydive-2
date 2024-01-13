@@ -5,7 +5,7 @@
 
 html,
 body { 
-  /*margin: 0;
+  /* margin: 0;
   padding: 0; */
   font-family: Roboto;
   font-size: 10px;
@@ -56,18 +56,6 @@ h5 {
   font-size: 1.2em;
   line-height: 1em;
 }
-
-/* .color-dark-blue {
-  color: rgb(25,33,41)
-}
-
-.color-blue {
-  color: rgb(67,163,230)
-}
-
-.color-text {
-  color: rgb(0,0,0)
-} */
 
 .nav-bar {
   background-color: rgb(25,33,41);
@@ -162,12 +150,12 @@ h5 {
   height: 180px;
 }
 
-.footer {
+footer {
   text-align: center;
   font-size: 1.9em;
 }
 
-.address {
+address {
   font-style: normal;
   font-size: 0.8em;
 }
