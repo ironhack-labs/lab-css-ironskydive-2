@@ -123,3 +123,26 @@ h5 {
   text-align: center;
   text-decoration: none;
 }
+
+/* Style for articles in the #structure ID */
+
+#structure article {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#structure article img {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+/* Alternative with class */
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.service-box img {
+  width: 125px;
+}
