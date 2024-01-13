@@ -100,21 +100,6 @@ h5 {
     text-decoration: none;
   }
 
-/* Alternative with a class */
-/*
-.link-btn {
-  background-color: rgb(67,163,230);
-  color: rgb(255,255,255);
-  font-family: 'Roboto Condensed';
-  font-size: 2em;
-  letter-spacing: 0.5px;
-  text-align: center;
-  text-decoration: none;
-}
-*/
-
-/* Style for articles in the #structure ID */
-
 #structure article {
   font-size: 1.7em;
   text-align: center;
