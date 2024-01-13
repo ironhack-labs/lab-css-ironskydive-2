@@ -101,7 +101,7 @@ h5 {
   }
 
 /* Alternative with a class */
-
+/*
 .link-btn {
   background-color: rgb(67,163,230);
   color: rgb(255,255,255);
@@ -111,6 +111,7 @@ h5 {
   text-align: center;
   text-decoration: none;
 }
+*/
 
 /* Style for articles in the #structure ID */
 
@@ -120,18 +121,6 @@ h5 {
 }
 
 #structure article img {
-  font-size: 1.7em;
-  text-align: center;
-}
-
-/* Alternative with class */
-
-.service-box {
-  font-size: 1.7em;
-  text-align: center;
-}
-
-.service-box img {
   width: 125px;
 }
 
