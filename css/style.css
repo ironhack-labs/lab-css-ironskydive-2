@@ -45,3 +45,7 @@ h5 {
 h2 {
   line-height: 4em;
 }
+
+.navbar {
+  background-color: rgb(25, 33, 41);
+}
