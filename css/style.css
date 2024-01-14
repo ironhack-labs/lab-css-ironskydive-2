@@ -49,3 +49,8 @@ h2 {
 .navbar {
   background-color: rgb(25, 33, 41);
 }
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
