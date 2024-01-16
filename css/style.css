@@ -69,7 +69,8 @@ h5 {
     background-position: 0 0;
     background-repeat: no-repeat;
     height: 650px;
-    background-size: cover;
+    background-size: cover;  
+        
 }
 
 header h2 {
@@ -83,5 +84,29 @@ header h2 {
 
 .quote p{
     font-size: 2.5em;
+    line-height: 0em;
+}
+
+/* ------------------------- SECTION 1 -------- ----------------- */
+
+.dark-background {
+    background-color: #020819;
+    color: white;
+}
+
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
 }
 
