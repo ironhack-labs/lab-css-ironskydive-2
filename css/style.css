@@ -87,7 +87,7 @@ header h2 {
     line-height: 0em;
 }
 
-/* ------------------------- SECTION 1 -------- ----------------- */
+/* ------------------------- SECTION 1 -------------------------- */
 
 .dark-background {
     background-color: #020819;
@@ -110,3 +110,13 @@ header h2 {
     text-decoration: none;
 }
 
+/* ------------------------- SECTION 1 -------------------------- */
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
