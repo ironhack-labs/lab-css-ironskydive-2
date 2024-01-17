@@ -13,7 +13,7 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: "Roboto Condensed";
 }
 
@@ -21,7 +21,7 @@ h1 {
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
-    }
+}
 
 h2 {
     font-size: 5em;
@@ -47,24 +47,24 @@ h5 {
     line-height: 1em;
 }
 
+/*-- Nav -----------------------------------------------------------------*/
 .nav-bar {   
     background-color: rgb(25, 33, 41);
 }
-
 
 .nav-bar a {
     color: white;
     text-decoration: none;
     font-size: 2em;
-  }
+}
 
+/*-- header --------------------------------------------------------------*/
 .header {
     background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     height: 650px;
-
 }
 
 .header h2 {
@@ -73,14 +73,18 @@ h5 {
 }
 
 .quote {
-    font-size: 2.5em;    
+    font-size: 2.5em; 
+    margin: 0 100px;
+    position: absolute; 
+    left: 5%;
+    bottom: 10vh;      
 }
 
+/*-- Section 1 -----------------------------------------------------------------*/
 #general-information .text {
     font-size: 2em;
     font-weight: 100;
-    text-align: center;
-  
+    text-align: center;  
 }
 
 .dark-background {
@@ -96,9 +100,9 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
-
 }
 
+/*-- Section 2 -----------------------------------------------------------------*/
 .service-box {
     font-size: 1.7em;
     text-align: center;
@@ -108,6 +112,7 @@ h5 {
     width: 125px;
 }
 
+/*-- Section 3 -----------------------------------------------------------------*/
 #team .section-text {
     font-size: 1.9em;
     text-align: center;
@@ -123,7 +128,9 @@ h5 {
     height: 180px;
 }
 
+/*-- Section 4 -----------------------------------------------------------------*/
 
+/*-- footer  -------------------------------------------------------------------*/
 .dark-background.footer {
     background-color: rgb(25, 33, 41); 
     color: white;
