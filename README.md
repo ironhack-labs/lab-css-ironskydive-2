@@ -221,7 +221,7 @@ Don't be afraid! It is easier than it seems. First of all, you have to set the [
 - **url:** `https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg`.
 - **position:** `0 0`.
 - **repeat:** `no-repeat`
-- **size:** `cover`.
+- **size:** `cover`. 
 
 Remember you should create a class, in this case `header`, and assign it to the `header` tag in your HTML to use this style. Now, just set the `header`'s height to `650px`.
 
