@@ -3,14 +3,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
+  font-family:'Roboto', sans-serif;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
+  color: rgb(0, 0, 0);
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -93,7 +94,7 @@ text-align: center;
 }
 
 .service-box {
-  font: 1.7em;
+  font-size: 1.7em;
   text-align: center;
 }
 
@@ -131,11 +132,16 @@ color: rgb(67 163 230);
 text-decoration: none;
 
 }
-
+ 
+/*adding footer ul to center the text */
 .footer li {
   list-style-type: none;
-
+}
+.footer ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
-
-
+/* not clear if i have to follow just the guidlines because is a basic practice or should add more coding to reach the final version of the website we saw in the previous exercise. 
+Btw is some cases i had to add something more to have the same results of the screenshots. */
