@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* { 
+    margin: 0;
+    padding: 0;
+    --primary-color: #000000;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Roboto Condensed', sans-serif;
+    --secondary-color: rgb(67, 163, 230); /* Blue */
+    --dark-blue: rgb(25, 33, 41); /* Dark Blue */
+    --text-color: rgb(0, 0, 0); /* Text */
+    
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+/* CSS multiselector example */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: var(--secondary-font);
+}
+
+h1 {
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5em;
+    text-align: center;
+    line-height: 4em;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+h4 {
+    font-size: 4.2em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5 {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+main {
+    nav {
+        background-color: var(--dark-blue);
+        &.nav-bar {
+            background-color: var(--dark-blue);
+        ul {
+            li {
+                color: var(--secondary-color);
+            
+            }
+            li a {
+                color: white;  /* Cambia el color de los enlaces a blanco */
+                text-decoration: none;  /* Opcional: quitar subrayado de los enlaces */
+            }
+
+        }
+    }
+}
+}
+
+main {
+    header {
+        &.header-style {
+        background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+        background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+    
+        }
+        h2 {
+            text-shadow: #020819 8px -20px 9px ;
+            color: white;
+
+        }
+        aside {
+                &.quote {
+                    font-size: 2.5em;
+                }
+            
+        }
+    }
+}
+
+section {
+    &.dark-background {
+        background-color: var(--dark-blue);
+        color: white;
+    }
+    p {
+        &.text {
+            font-size: 2em;
+            font-weight: 100;
+            text-align: center;
+        }
+    }
+        a {
+        &.link-btn {
+            background-color: var(--secondary-color); 
+            color: white; 
+            font-family: 'Roboto Condensed', sans-serif; 
+            font-size: 2em; 
+            letter-spacing: 0.5px; 
+            text-align: center; 
+            text-decoration: none; 
+        }
+    }
+
+    }
+
+    section {
+        &.service-box {
+            font-size: 1.7em;
+            text-align: center;
+        }
+        .service-box img {
+            height: 125px;
+        }
+    }
+
+    section {
+        div {
+        article {
+            &.member-name {
+                font-size: 1.5em;
+                font-weight: 700;
+            }
+            img { 
+            &.team {
+                width: 250px;
+                height: 180px;
+            }
+        }
+
+            }
+           
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+
+    footer {
+        &.footer {
+            text-align: center;
+            font-size: 1.9em;
+            background-color: var(--dark-blue);
+            
+        
+        section {
+            color: white;
+            line-height: 2em;
+            address {
+
+                &.address {
+                    font-style: normal;
+                    font-size: 0.8em;
+                }
+
+            }
+            ul {
+                li {
+                    list-style: none;
+                    a {
+                        color: var(--secondary-color);
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+        }
+    }
+    }
+
+
+
+
+
+
+    
+
