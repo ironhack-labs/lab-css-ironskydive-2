@@ -1,0 +1,181 @@
+/* CSS file for Ironskydive */
+
+/* Color palette *
+
+Color 	    RGB 
+Blue 	    67, 163, 230 	rgb(67, 163, 230)
+Dark Blue 	25, 33, 41 	    rgb(25, 33, 41)
+Text 	    0, 0, 0     	rgb(0, 0, 0)        #000
+
+*****************/
+
+
+/* Font import - Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+/* Global styles - reset default margin and padding for all elements */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto Condensed;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+/* For the navigation bar */
+.nav-bar {
+  background-color: rgb(25, 33, 41); /* Dark Blue */
+}
+/* For the links inside the navigation bar */
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/* For the header section */
+.header {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 650px;
+}
+
+.header h2 {
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+/* For the quote in the header */
+.quote {
+  font-size: 2.5em;
+}
+
+/* For the quote text - make it italic */
+.quote q {
+  font-style: oblique;
+}
+
+/* For the sections with dark background */
+.dark-background {
+    background-color: rgb(25, 33, 41); /* Dark Blue */
+    color: white;
+}
+
+/* General Info Section - text */
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* General Info Section - link buttons */
+.link-btn {
+    background-color: rgb(67, 163, 230); /* Blue */
+    color: white;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* For Day Structure Section */
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+/* For the images inside the service-box articles */
+.service-box img {
+    width: 125px;
+}
+
+/* For the Team Section - Paragraph */
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+/* For the Team Section - member names heading */
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* For the Team Section - member images size */
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+/* For the footer */
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+/* For the address element in the footer */
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+/* For the links in the footer */
+.footer a {
+    color: rgb(67, 163, 230); /* Blue */
+    text-decoration: none;
+}
+
+/* For the link list in the footer - remove default list style */
+.footer ul {
+    list-style: none;
+}
