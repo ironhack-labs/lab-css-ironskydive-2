@@ -168,12 +168,12 @@ h6 {
 #team div {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;   /* 🔥 KEY FIX */
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 #team article {
-  width: 30%;               /* 🔥 KEY FIX */
+  width: 30%; 
   text-align: center;
 }
 
