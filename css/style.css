@@ -2,7 +2,7 @@
 :root {
   --color-blue: rgb(67, 163, 230);
   --color-dark-blue: rgb(25, 33, 41);
-  --color-text: rbg(0, 0, 0);
+  --color-text: rgb(0, 0, 0);
 }
 html,
 body {
