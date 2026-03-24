@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Concensed";
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.class-nav-bar {
+  background-color: rgb(25, 33, 41);
+}
+
+.class-nav-bar li a {
+  color: rgb(255, 255, 255);
+}
+
+.class-header {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.class-header h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: #020819 8px -20px 9px;
+}
+
+.class-quote {
+  font-size: 2.5em;
+}
+
+.class-dark-background {
+  background-color: rgb(25, 33, 41);
+  color: rgb(255, 255, 255);
+}
+
+.class-text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.class-link-btn {
+  background-color: rgb(67, 163, 230);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.class-service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.class-service-box img {
+  width: 125px;
+}
+
+.class-section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.class-member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#team {
+    background-color: rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
+.class-footer {
+  text-align: center;
+  font-size: 1.9em;
+}
+.class-address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+.class-footer a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+.class-footer ul {
+  list-style: none;
+}
