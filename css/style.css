@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;700&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 3.5em;
+  color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1em;
+  letter-spacing: 0.4px;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  padding: 0;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px 20px;
+  display: block;
+}
+
+header {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header img {
+  width: 200px;
+}
+
+.quote {
+  font-size: 2.5em;
+}
+
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: white;
+}
+
+#general-information {
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#general-information article {
+  flex: 1;
+  padding: 20px;
+}
+
+.text {
+  font-size: 2em;
+  text-align: center;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#structure {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#structure > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.service-box {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-box img {
+  width: 125px;
+}
+
+.service-box h4 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.service-box p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#team {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-text {
+  font-size: 2em;
+  text-align: center;
+}
+
+#team > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+#team article {
+  flex: 1;
+  padding: 20px;
+}
+
+.member-name {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+}
+
+#schedule {
+  padding: 50px 0;
+  text-align: center;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 900px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+th {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-weight: 700;
+}
+
+.footer {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer h5 {
+  font-size: 1.9em;
+}
+
+.footer .address {
+  font-size: 1.9em;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer a {
+  color: rgb(67, 163, 230);
+  font-size: 1.9em;
+  text-decoration: none;
+}
